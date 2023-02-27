@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background: url("/src/image/2641074.gif") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.about {
+    display: block;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    margin-top: 20px;
+    background: rgb(17, 17, 17);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.about h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.avatar {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.about div span {
+    display: block;
+}
+center a {
+    color: blue;
+}
+.brands a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.discord {
+    cursor: pointer;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 30px);
+}
+.audio {
+    display: block;
+    margin: auto;
+}
+@media (max-width: 400px) {
+    .about {
+        width: calc(100% - 30px);
+        margin: 10px;
+    }
+}
+@media (max-width: 333px) {
+    .audio {
+        width: 100%;
+    }
+}
+@media (max-width: 266px) {
+    .about {
+        height: auto;
+    }
+}
+@media (max-width: 140px) {
+    .avatar {
+        width: 100%;
+        height: unset;
+    }
+}
