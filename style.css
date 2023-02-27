@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body {
-    background: url("/src/image/2641074.gif") fixed;
+    background: url("./src/image/2641074.gif") fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
